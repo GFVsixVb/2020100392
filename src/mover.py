@@ -14,7 +14,7 @@ def move_turtle():
     twist = Twist()
     
     # Configura las velocidades
-    twist.linear.x = 2.0  # Velocidad lineal hacia adelante
+    twist.linear.x = 3.0  # Velocidad lineal hacia adelante
     twist.angular.z = 0.5  # Velocidad angular (giro)
 
     # Establece la frecuencia de publicación en 10 Hz (cada 0.1 segundos)
